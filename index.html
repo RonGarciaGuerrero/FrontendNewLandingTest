@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Author: Ron Garcia Guerrero -->
+    <title>Frontend New Landing Test</title>
+    <!--Bootstrap 5 CDN via jsDelivr-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Sass CSS -->
+    <link rel="stylesheet" href="./sass/styles.css">
+    
+    <!-- Slick CSS-->
+    <!-- <link rel="stylesheet" type="text/css" href="./js/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./js/slick/slick-theme.css"/> -->
+    
+</head>
+<body class="d-flex flex-column h-100">
+    <!-- Navbar responsive hamburger menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <!-- Emergya Logo Azul -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 131.9 23" width="172" height="30"><defs><style>.cls-3{fill:#ef3340;}.cls-2{fill:#0c2340;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><g id="Isotipo"><path class="cls-3" d="M24.4,0H6.9a.1.1,0,0,0-.1.1L4.4,5.3c0,.1,0,.1.1.1H19.4A4,4,0,0,0,23.1,3L24.4.1C24.5.1,24.4,0,24.4,0Z"/><path class="cls-3" d="M20,17.6H2.5a.1.1,0,0,0-.1.1L0,22.9c0,.1,0,.1.1.1H15a4,4,0,0,0,3.7-2.4L20,17.7C20.1,17.7,20,17.6,20,17.6Z"/><path class="cls-3" d="M11.2,14.2a4,4,0,0,0,3.7-2.4l1.3-2.9c0-.1,0-.1-.1-.1H6.1a.1.1,0,0,0-.1.1L3.6,14.1c0,.1,0,.1.1.1Z"/></g><g id="Letras"><path class="cls-2" d="M41.9,3.9H32.2a.1.1,0,0,0-.1.1V19a.1.1,0,0,0,.1.1h9.7A.1.1,0,0,0,42,19V16.4a.1.1,0,0,0-.1-.1H35.3V12.9h6.4a.1.1,0,0,0,.1-.1V10.2a.1.1,0,0,0-.1-.1H35.3V6.8h6.6a.1.1,0,0,0,.1-.1V4A.1.1,0,0,0,41.9,3.9Z"/><path class="cls-2" d="M73.8,3.9H64.1A.1.1,0,0,0,64,4V19a.1.1,0,0,0,.1.1h9.7a.1.1,0,0,0,.1-.1V16.4a.1.1,0,0,0-.1-.1H67.2V12.9h6.4a.1.1,0,0,0,.1-.1V10.2a.1.1,0,0,0-.1-.1H67.2V6.8h6.6c.1,0,.1-.1.1-.2V4A.1.1,0,0,0,73.8,3.9Z"/><path class="cls-2" d="M61.1,3.9H56.7a.1.1,0,0,0-.1.1l-3.7,9.1L49.3,4l-.1-.1H44.9a.1.1,0,0,0-.1.1V19a.1.1,0,0,0,.1.1h3A.1.1,0,0,0,48,19V8.5L52.2,19l.1.1h1.3a.1.1,0,0,0,.1-.1L58,8.4V19a.1.1,0,0,0,.1.1h3a.1.1,0,0,0,.1-.1V4A.1.1,0,0,0,61.1,3.9Z"/><path class="cls-2" d="M88.5,8.8a4.73,4.73,0,0,0-5.1-4.9H76.8a.1.1,0,0,0-.1.1V19a.1.1,0,0,0,.1.1h3a.1.1,0,0,0,.1-.1V13.7h2L84.8,19l.1.1h3.4c.1,0,.1-.1.1-.2l-3.3-5.6A4.35,4.35,0,0,0,88.5,8.8Zm-5.6,2.1h-3V6.8h3a2.06,2.06,0,1,1,0,4.1Z"/><path class="cls-2" d="M126.1,4l-.1-.1h-3.6a.1.1,0,0,0-.1.1l-5.9,15c0,.1,0,.2.1.2h3.4a.1.1,0,0,0,.1-.1l.9-2.5h6.5l.9,2.5.1.1h3.4c.1,0,.1-.1.1-.2Zm-4.3,9.7,2.4-6.3,2.4,6.3Z"/><path class="cls-2" d="M119.2,3.9h-3.4a.1.1,0,0,0-.1.1L112,10l-3.7-6-.1-.1h-3.4c-.1,0-.1.1-.1.2l5.7,8.8V19a.1.1,0,0,0,.1.1h3a.1.1,0,0,0,.1-.1V12.9l5.7-8.8C119.3,4,119.3,3.9,119.2,3.9Z"/><path class="cls-2" d="M105.5,10.8h0l-6.6-.1a.1.1,0,0,0-.1.1v2.5a.1.1,0,0,0,.1.1h3.5a5.22,5.22,0,0,1-1.4,1.9,5.17,5.17,0,0,1-3.2,1.1,5,5,0,0,1-5-5.7,4.9,4.9,0,0,1,3.7-4.2,5.06,5.06,0,0,1,5.3,1.9l2-2.2A7.46,7.46,0,0,0,98,3.5a7.9,7.9,0,1,0-.2,15.8,8.32,8.32,0,0,0,5.1-1.8,7.71,7.71,0,0,0,2.6-4.5h0V10.8Z"/></g></g></g>
+            </svg>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">CONSULTORIA TIC</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">DIGITAL & DATOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CLOUD</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">INNOVACIÓN</a>
+              </li>
+              
+            </ul>
+            <!-- Contacto -->
+            <div class="d-flex justify-content-end align-items-lg-start">
+                <button  class="btn btn-square me-2" type="button">Contacto</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+      <!-- Slider with Bootstrap Carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide bg-dark" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+          <div class="carousel-item active mh-">
+            <img src="./img/slider.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/slider.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/slider.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Gallery -->
+      <div id="mini" class="container mt-5 px-1 mb-5">
+        <div class="row gx-1">
+          <div class="col">
+            <img class="p-3 d-block mw-100" src="./img/emergya1.png" alt="">
+          </div>
+          <div class="col">
+            <img class="p-3 d-block mw-100" src="./img/emergya2.png" alt="">
+          </div>
+          <div class="col">
+            <img class="p-3 d-block mw-100" src="./img/emergya3.png" alt="">
+          </div>
+        </div>
+      </div>
+
+
+      <!--Footer -->
+      <footer class="footer mt-auto py-3">
+        <div class="container-fluid">
+          <span>
+            <div class="container-fluid">
+            <!-- Emergya Logo Blanco SVG -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 131.9 23" width="172" height="30"><defs><style>.cls-1{fill:#ef3340;}.cls-4{fill:#fff;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><g id="Isotipo"><path class="cls-1" d="M24.4,0H6.9a.1.1,0,0,0-.1.1L4.4,5.3c0,.1,0,.1.1.1H19.4A4,4,0,0,0,23.1,3L24.4.1C24.5.1,24.4,0,24.4,0Z"/><path class="cls-1" d="M20,17.6H2.5a.1.1,0,0,0-.1.1L0,22.9c0,.1,0,.1.1.1H15a4,4,0,0,0,3.7-2.4L20,17.7C20.1,17.7,20,17.6,20,17.6Z"/><path class="cls-1" d="M11.2,14.2a4,4,0,0,0,3.7-2.4l1.3-2.9c0-.1,0-.1-.1-.1H6.1a.1.1,0,0,0-.1.1L3.6,14.1c0,.1,0,.1.1.1Z"/></g><g id="Letras"><path class="cls-4" d="M41.9,3.9H32.2a.1.1,0,0,0-.1.1V19a.1.1,0,0,0,.1.1h9.7A.1.1,0,0,0,42,19V16.4a.1.1,0,0,0-.1-.1H35.3V12.9h6.4a.1.1,0,0,0,.1-.1V10.2a.1.1,0,0,0-.1-.1H35.3V6.8h6.6a.1.1,0,0,0,.1-.1V4A.1.1,0,0,0,41.9,3.9Z"/><path class="cls-4" d="M73.8,3.9H64.1A.1.1,0,0,0,64,4V19a.1.1,0,0,0,.1.1h9.7a.1.1,0,0,0,.1-.1V16.4a.1.1,0,0,0-.1-.1H67.2V12.9h6.4a.1.1,0,0,0,.1-.1V10.2a.1.1,0,0,0-.1-.1H67.2V6.8h6.6c.1,0,.1-.1.1-.2V4A.1.1,0,0,0,73.8,3.9Z"/><path class="cls-4" d="M61.1,3.9H56.7a.1.1,0,0,0-.1.1l-3.7,9.1L49.3,4l-.1-.1H44.9a.1.1,0,0,0-.1.1V19a.1.1,0,0,0,.1.1h3A.1.1,0,0,0,48,19V8.5L52.2,19l.1.1h1.3a.1.1,0,0,0,.1-.1L58,8.4V19a.1.1,0,0,0,.1.1h3a.1.1,0,0,0,.1-.1V4A.1.1,0,0,0,61.1,3.9Z"/><path class="cls-4" d="M88.5,8.8a4.73,4.73,0,0,0-5.1-4.9H76.8a.1.1,0,0,0-.1.1V19a.1.1,0,0,0,.1.1h3a.1.1,0,0,0,.1-.1V13.7h2L84.8,19l.1.1h3.4c.1,0,.1-.1.1-.2l-3.3-5.6A4.35,4.35,0,0,0,88.5,8.8Zm-5.6,2.1h-3V6.8h3a2.06,2.06,0,1,1,0,4.1Z"/><path class="cls-4" d="M126.1,4l-.1-.1h-3.6a.1.1,0,0,0-.1.1l-5.9,15c0,.1,0,.2.1.2h3.4a.1.1,0,0,0,.1-.1l.9-2.5h6.5l.9,2.5.1.1h3.4c.1,0,.1-.1.1-.2Zm-4.3,9.7,2.4-6.3,2.4,6.3Z"/><path class="cls-4" d="M119.2,3.9h-3.4a.1.1,0,0,0-.1.1L112,10l-3.7-6-.1-.1h-3.4c-.1,0-.1.1-.1.2l5.7,8.8V19a.1.1,0,0,0,.1.1h3a.1.1,0,0,0,.1-.1V12.9l5.7-8.8C119.3,4,119.3,3.9,119.2,3.9Z"/><path class="cls-4" d="M105.5,10.8h0l-6.6-.1a.1.1,0,0,0-.1.1v2.5a.1.1,0,0,0,.1.1h3.5a5.22,5.22,0,0,1-1.4,1.9,5.17,5.17,0,0,1-3.2,1.1,5,5,0,0,1-5-5.7,4.9,4.9,0,0,1,3.7-4.2,5.06,5.06,0,0,1,5.3,1.9l2-2.2A7.46,7.46,0,0,0,98,3.5a7.9,7.9,0,1,0-.2,15.8,8.32,8.32,0,0,0,5.1-1.8,7.71,7.71,0,0,0,2.6-4.5h0V10.8Z"/></g></g></g>
+            </svg>
+            <svg class="float-end pt-1 mx-1 mt-1" width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.1618 2.65605C20.3984 2.99374 19.5888 3.21552 18.7598 3.31405C19.6336 2.79148 20.2875 1.96906 20.5998 1.00005C19.7798 1.48805 18.8808 1.83005 17.9438 2.01505C17.3144 1.34163 16.4802 0.895012 15.5708 0.744633C14.6614 0.594255 13.7277 0.74854 12.9151 1.1835C12.1024 1.61846 11.4562 2.30973 11.0769 3.14984C10.6976 3.98995 10.6066 4.93183 10.8178 5.82905C9.15492 5.7457 7.52814 5.31357 6.0431 4.56071C4.55805 3.80785 3.24794 2.7511 2.19781 1.45905C1.8261 2.0975 1.63076 2.82328 1.63181 3.56205C1.63181 5.01205 2.36981 6.29305 3.49181 7.04305C2.82782 7.02215 2.17844 6.84283 1.59781 6.52005V6.57205C1.59801 7.53775 1.93218 8.47366 2.54366 9.22111C3.15513 9.96855 4.00629 10.4815 4.95281 10.673C4.33642 10.8401 3.69012 10.8647 3.06281 10.745C3.32968 11.5763 3.84982 12.3032 4.5504 12.8242C5.25099 13.3451 6.09694 13.6338 6.96981 13.65C6.10229 14.3314 5.10899 14.835 4.04669 15.1322C2.98439 15.4294 1.87394 15.5143 0.778809 15.382C2.69051 16.6115 4.9159 17.2642 7.18881 17.262C14.8818 17.262 19.0888 10.889 19.0888 5.36205C19.0888 5.18205 19.0838 5.00005 19.0758 4.82205C19.8947 4.23022 20.6014 3.49707 21.1628 2.65705L21.1618 2.65605Z" fill="#ADADAD"/>
+            </svg>
+            <svg class="float-end pt-1 mx-1 mt-1" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.402 18V11.034H14.735L15.084 8.326H12.402V6.598C12.402 5.814 12.62 5.279 13.744 5.279H15.178V2.857C14.4838 2.78334 13.7861 2.74762 13.088 2.75C11.021 2.75 9.606 4.012 9.606 6.33V8.326H7.268V11.034H9.606V18H1C0.734784 18 0.48043 17.8946 0.292893 17.7071C0.105357 17.5196 0 17.2652 0 17V1C0 0.734784 0.105357 0.48043 0.292893 0.292893C0.48043 0.105357 0.734784 0 1 0H17C17.2652 0 17.5196 0.105357 17.7071 0.292893C17.8946 0.48043 18 0.734784 18 1V17C18 17.2652 17.8946 17.5196 17.7071 17.7071C17.5196 17.8946 17.2652 18 17 18H12.402Z" fill="#ADADAD"/>
+            </svg>
+            </div>
+        
+          </span>
+        </div>
+      </footer>
+      
+      <!--Slick Slider  -->
+      <!-- <div class="your-class">
+        <div><img src="./img/slider.png" alt=""></div>
+        <div><img src="./img/slider.png" alt=""></div>
+        <div><img src="./img/slider.png" alt=""></div>
+      </div>
+      ABC -->
+      <!-- Jquery -->
+      <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="./js/slick/slick.min.js"></script>
+    
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('.your-class').slick();
+        });
+      </script> -->
+</body>
+</html>
