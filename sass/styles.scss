@@ -1,0 +1,68 @@
+
+$emergyaAzul:#0A2239;
+$emergyaBlanco:#FFFFFF;
+$fontRed:#EF3340;
+$fontDark:#0C2340;
+$fontHover:#6a6a6a;
+
+//Header rules
+@mixin header($emergyaBlanco:#FFFFFF){
+    background-color:$emergyaBlanco;
+}
+#header{
+    @include header();
+}
+a.nav-link{
+    color:$fontDark;
+}
+a.nav-link:hover{
+    color:$fontHover;
+}
+
+a.nav-link.active{
+    color:$fontRed;
+}
+
+
+@mixin menuHeader (){
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    padding-top: 4px;
+
+}
+#navbarSupportedContent{
+     @include menuHeader();
+}
+
+// Rules for header Contact button 
+.btn.btn-square {
+    border-color: #ef3340;
+    border-radius: 0;
+}
+
+
+// Use of mixin Sass function for the Footer
+@mixin logoAzul ($emergyaAzul:#0A2239) {
+    background-color: $emergyaAzul;
+    height: 73px;
+}
+
+.footer {
+    @include logoAzul();
+}
+
+// Rules for Web Carousel images 
+#carouselExampleIndicators .carousel-item{
+    max-height: 400px;
+}
+#carouselExampleIndicators .carousel-item img{
+    margin-top: -100px;
+}
+
+// Rules for the 3 image gallery
+#mini .col img{
+    min-width: 300px;
+}

@@ -1,0 +1,48 @@
+#header {
+  background-color: #FFFFFF;
+}
+
+a.nav-link {
+  color: #0C2340;
+}
+
+a.nav-link:hover {
+  color: #6a6a6a;
+}
+
+a.nav-link.active {
+  color: #EF3340;
+}
+
+#navbarSupportedContent {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  padding-top: 4px;
+}
+
+.btn.btn-square {
+  border-color: #ef3340;
+  border-radius: 0;
+}
+
+.footer {
+  background-color: #0A2239;
+  height: 73px;
+}
+
+#carouselExampleIndicators .carousel-item {
+  max-height: 400px;
+}
+
+#carouselExampleIndicators .carousel-item img {
+  margin-top: -100px;
+}
+
+#mini .col img {
+  min-width: 300px;
+}
+
+/*# sourceMappingURL=styles.css.map */
